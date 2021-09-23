@@ -19,4 +19,4 @@ use Illuminate\Support\Facades\Route;
 // });
 
 
-Route::get('/', HomeComponent::class);
+// Route::get('/', HomeComponent::class);
