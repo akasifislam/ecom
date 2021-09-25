@@ -8,9 +8,9 @@ use Illuminate\Support\Facades\Route;
 
 
 
-Route::get('/', HomeComponent::class);
+Route::get('/', HomeComponent::class)->name('home');
 
 
-Route::get('/shop', ShopComponent::class);
-Route::get('/cart', CartComponent::class);
-Route::get('/checkout', CheckoutComponent::class);
+Route::get('/shop', ShopComponent::class)->name('frontend.shop');
+Route::get('/cart', CartComponent::class)->name('frontend.cart');
+Route::get('/checkout', CheckoutComponent::class)->name('frontend.checkout');
