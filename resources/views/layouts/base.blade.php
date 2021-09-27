@@ -76,12 +76,6 @@
 												<li class="menu-item" >
 													<a title="Pound (GBP)" href="{{ route('dashboard') }}">Dashboard</a>
 												</li>
-												<li class="menu-item" >
-													<a title="Euro (EUR)" href="#">Euro (EUR)</a>
-												</li>
-												<li class="menu-item" >
-													<a title="Dollar (USD)" href="#">Dollar (USD)</a>
-												</li>
 											</ul>
 										</li>
 										@endif
